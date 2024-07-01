@@ -10,8 +10,13 @@ class MyApp extends StatelessWidget {
 Widget build(BuildContext context) {
   return MaterialApp(
     home : Scaffold(
-      appBar: AppBar(title: Text("Title")),
-      body: Text("welcome yahya"),
+      
+      appBar: AppBar(title: Text("Title" ,style: TextStyle(color:Colors.white)),backgroundColor: Colors.deepPurpleAccent,),
+      body: Text("welcome yahya", style: TextStyle(
+        color: Colors.black,
+        fontSize: 30.1,
+        
+      )),
     )
   );
 }
