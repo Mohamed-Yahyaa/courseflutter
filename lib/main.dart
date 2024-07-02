@@ -12,11 +12,15 @@ Widget build(BuildContext context) {
     home : Scaffold(
       
       appBar: AppBar(title: Text("Title" ,style: TextStyle(color:Colors.white)),backgroundColor: Colors.deepPurpleAccent,),
-      body: Text("welcome yahya", style: TextStyle(
+      body: Container(
+        alignment: Alignment.center,
+        margin: EdgeInsets.all(10),
+        padding: EdgeInsets.all(10),
+        child: Text("welcome yahya", style: TextStyle(
         color: Colors.black,
         fontSize: 30.1,
         
-      )),
+      )),)
     )
   );
 }
