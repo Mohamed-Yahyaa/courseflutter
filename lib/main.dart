@@ -13,14 +13,13 @@ Widget build(BuildContext context) {
       
       appBar: AppBar(title: Text("Title" ,style: TextStyle(color:Colors.white)),backgroundColor: Colors.deepPurpleAccent,),
       body: Container(
-        alignment: Alignment.center,
-        margin: EdgeInsets.all(10),
-        padding: EdgeInsets.all(10),
-        child: Text("welcome yahya", style: TextStyle(
-        color: Colors.black,
-        fontSize: 30.1,
-        
-      )),)
+        child: Image.asset(
+          fit: BoxFit.cover,
+          "images/Hyper.png",
+          width: 450,
+          height: 900,
+          )
+     )
     )
   );
 }
